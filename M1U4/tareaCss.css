@@ -1,0 +1,36 @@
+p{
+    color:#9B329B;
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.destacados{
+ color: #75A544  ;
+ font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1{
+    color: rgba(143, 39, 39, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    
+
+}
+
+h2{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+h3{
+    color: whitesmoke;
+    background-color: rgba(92, 79, 78, 0.329);
+}
+
+li{
+    color: #75A544;
+    font-size: 17px;
+    
+}
