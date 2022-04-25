@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio U3</title>
+    <title>Ejercicio U3 CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Raleway:ital,wght@1,300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="tareaCss.css">
-    
+
 </head>
+
 <body>
-    <h1>Apellido y nombre:<em> Vanesa Felice </em> </h1>
-    <img src="imagenes/topper2.jpg" alt="Oddbods fiesta" width="2000" height="900">
-    <h2>Edad: <em>29</em></h2>
-    <h2>Domicilio: <em>Bacacay 4586</em></h2>
+    <h1>Apellido y nombre: Vanesa Felice </h1>
+
+    <a id="foto" href="./acercademi.html" target="_blank"><img src="imagenes/foto.jpg" alt="foto Vanesa Felice"
+            width="300"></a>
+
+    <div class="datos">
+        <h2>Edad: 29</h2>
+        <h2>Domicilio: Avenida Siempreviva 742</h2>
+        <h2>Mail: correo@gmail.com</h2>
+        <h2>Celular: 1168530652</h2>
+    </div>
 
     <h3>¿Que series me gustan?</h3>
     <ul>
@@ -22,31 +42,41 @@
         <li>Life</li>
     </ul>
 
-    <h3>¿Que peliculas me gustaron mas?</h3>
+    <h3>¿Que películas me gustaron mas?</h3>
     <ol>
         <li>Carrie</li>
         <li>El extraño mundo de Jack</li>
         <li>Beetlejuice</li>
         <li>WALL·E</li>
+        <li>El árbol de la vida</li>
     </ol>
     <h3>Perfil</h3>
-    <p>Las cosas que me gustan hacer son: mirar peliculas y series,<span class="destacados">leer libros</span> 
-         y disfrutar de la naturaleza.</p>
+    <div class="caja">
+        <p>Las cosas que me gustan hacer son: mirar películas y series, leer libros
+            y disfrutar de la naturaleza.</p>
 
-    <p>Tambien disfruto mucho cuando comparto tiempo con <span class="destacados"> familia</span>, en especial
-        cuando salimos a los parques.</p>
+        <p>También disfruto mucho cuando comparto tiempo con mi familia, en especial
+            cuando salimos a los parques.</p>
 
-    <p style="color: orange">Mi estacion favorita es el otoño porque me gusta mucho ver el cambio de color de los arboles y
-         escuchar el ruido que hacen las hojas cuando las pisas.</p>
+        <p>Mi estación favorita es el otoño porque me gusta mucho ver el cambio de color de los árboles y
+            escuchar el ruido que hacen las hojas cuando las pisas.</p>
+    </div>
 
-    <h3>Si queres contactarme podes desde el siguiente formulario:</h3>
-    <form action="" method"">
+    <h3>Si queres contactarme podes desde el siguiente formulario</h3>
+    <form action=" method">
 
         <input type="text" placeholder="Nombre">
-        
+
         <input type="text" placeholder="Apellido">
-        <input type="submit" >
+        <input type="email" placeholder="email"><br><br>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"
+            placeholder="déjeme su comentario aquí"></textarea><br>
+        <input type="submit">
 
     </form>
+    <br><br>
+    <i class="fa-brands fa-facebook facebook"></i>
+    <i class="fa-brands fa-linkedin linkedin"></i>
 </body>
+
 </html>

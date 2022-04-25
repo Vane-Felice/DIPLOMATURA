@@ -1,36 +1,83 @@
-p{
-    color:#9B329B;
+body {
+    background-color: RGBA(14, 56, 80, 0.21);
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    color: white;
     font-size: 17px;
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.destacados{
- color: #75A544  ;
- font-family: 'Courier New', Courier, monospace;
+h1 {
+    color: #0E3850;
+    font-family: 'Raleway', sans-serif;
 
 }
 
-h1{
-    color: rgba(143, 39, 39, 0.5);
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    
-
+h2 {
+    color: #0E3850;
+    font-family: 'Raleway', sans-serif;
 }
 
-h2{
-    color: brown;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-}
-h3{
+h3 {
     color: whitesmoke;
     background-color: rgba(92, 79, 78, 0.329);
 }
 
-li{
-    color: #75A544;
-    font-size: 17px;
+li {
+    color: black;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    color: #0E385F;
+    content: "\2022";
+    padding: 2px;
+}
+
+.caja {
+    width: 500;
+    height: 500;
+    padding: 30px;
+    margin: 10px;
+    background: #334279;
+    background: linear-gradient(90deg, #334279 0%, #009dff 80%);
+    background: -webkit-linear-gradient(90deg, #334279 0%, #009dff 80%);
+    background: -moz-linear-gradient(90deg, #334279 0%, #009dff 80%);
+    border-radius: 82px 0px 83px 0px;
+    column-count: 3;
+    column-rule: 4px double black;
+    box-shadow: -1px 10px 5px -3px rgba(0, 0, 0, 0.75);
+
+}
+
+.caja p {
+    margin: 0;
+}
+
+#foto:hover {
+    filter: sepia(1%) blur(3px);
+    -webkit-filter: sepia(1%) blur(3px);
+    -moz-filter: sepia(1%) blur(3px);
     
+    
+}
+img{
+    filter: drop-shadow(5px 5px 10px #44659B)
+}
+
+.facebook{
+    font-size: 30px;
+}
+.linkedin{
+    font-size: 30px;
 }
