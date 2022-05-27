@@ -1,0 +1,149 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#logo {
+    width: 170px;
+    /* height: 150px; */
+}
+
+header {
+    padding: 15px 0;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+
+header h1 {
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+nav {
+    background-color: #975785;
+    margin-bottom: 20px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    /* margin: 10px; */
+    padding: 10px;
+    display: block;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+    background-color: #d299c2;
+}
+
+footer {
+    background-color: grey;
+    color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+.contenedor {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+nav ul li a.activo {
+    background-color: #6d4f64;
+}
+
+main img {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+
+main h2 {
+    font-weight: 500;
+    color: #975785;
+    letter-spacing: 2px;
+}
+
+.somos {
+    box-sizing: border-box;
+    width: 80%;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    /* background-color: orange; */
+}
+
+/* fin de home */
+/* inicio de nosotros */
+
+.contenedor-imagen {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.texto {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 90px;
+    line-height: 100px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.425);
+    align-items: center;
+}
+
+div .imagen {
+    border-radius: 143px 0px 129px 130px;
+    ;
+    width: 150px;
+    height: 150px;
+}
+
+.persona {
+    border: 1px solid grey;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+
+
+
+.persona h6 {
+    color: rgb(97, 61, 97);
+    font-style: italic;
+}
+.colaboradores{
+    display: inline-flex;
+    justify-content: space-between;
+    /* height: 900px; */
+}
+
+
+
+/* fin de Nosotros */
