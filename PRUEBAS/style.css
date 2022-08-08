@@ -1,0 +1,84 @@
+
+html {
+    font-family: 'Water Brush', cursive;
+
+}
+
+body {
+    background-color: #222;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    padding: 5px;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+section div {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #efefef;
+    text-align: center;
+    border-radius: 6px;
+    transition-property: all;
+    padding: 0 auto;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+#fotosk {
+    width: 500px;
+    /* transition: color 0.5s ease-out; */
+    /* box-shadow: 7px 4px 5px 0px rgba(110, 64, 109, 0.75); */
+    /* transition: box-shadow 0.35 ease; */
+}
+.foto:hover{
+    /* background-color: #30cfd0; */
+}
+
+
+    
+
+#fototerror {
+    width: 100px;
+    
+    /* box-shadow: 3px 4px 5px 0px rgba(110, 64, 109, 0.75); */
+}
+
+img :hover{
+    /* box-shadow: 3px 4px 5px 0px rgba(110,64,109,0.75); */
+}
+footer{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    padding: 10px;
+}
+.pie{
+    float: right;
+    font-size: 20px;
+}
+footer a{
+    transition: color 0.5s ease;
+    color:#efefef;
+    text-decoration: none;
+}
+footer a:hover{
+    color: red;
+
+}
+.foto:hover{
+background-color: #3ea168cc;
+}

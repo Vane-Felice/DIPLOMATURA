@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //  Ejericio 2
+
+        // Crear el código que reciba como parámetro un array de números y devuelva el mayor.
+
+        let numeros = [];
+        let i = 0;
+        let mayor = 0;
+        // let contador = 0;
+
+
+        for (i = 0; i <5; i++) {
+            numeros[i] = prompt("ingrese cinco números");
+            numeros[i]=parseInt(numeros[i]);
+            if (numeros[i] > mayor) {
+                mayor = numeros[i];
+            }
+        }
+        // numeros = [10, 27, 140, 36, 8, 300];
+
+        // while (i < 5) {
+        //     if (numeros[i] > mayor) {
+        //         mayor = numeros[i];
+        //     }
+        //     i++;
+        // }
+        alert("los numeros son " + numeros + " y el mayor es " + mayor);
+
+    </script>
+</body>
+
+</html>

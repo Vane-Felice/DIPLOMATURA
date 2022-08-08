@@ -1,0 +1,38 @@
+.contenedor{
+    height: 900px;
+    width: 900px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: stretch;
+    text-align: center;
+
+    
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja1{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.caja2{
+    background-color: aquamarine;
+    
+}
+.caja3{
+    background-color: aquamarine;
+}

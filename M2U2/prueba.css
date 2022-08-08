@@ -1,0 +1,22 @@
+.uno {
+    background-color: red;
+    color: aliceblue;
+    height: 300px;
+    width: 300px;
+}
+
+.uno:hover {
+    background-color: blueviolet;
+    color: black;
+    transition: background-color 0.5s ease-in;
+
+}
+
+img:hover {
+    filter: grayscale(3%) brightness(115%) hue-rotate(225deg);
+    /* color: black; */
+    /* transition: filter 0.6s ease-out; */
+    /* transform: rotate(36deg); */
+    /* transform: scale(1.2) ; */
+    transform: translate(137px,0px);
+}

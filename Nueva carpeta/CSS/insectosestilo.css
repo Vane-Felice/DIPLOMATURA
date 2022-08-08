@@ -15,20 +15,21 @@ header {
 }
 
 header h1 {
-    color: blueviolet;
-    font-size: 40px;
-    font-weight: 400;
+    color: rgb(26, 153, 142);
+    font-size: 60px;
+    font-weight: 500;
     display: inline-block;
     position: relative;
     bottom: 80px;
     margin-left: 20px;
-    font-style: italic;
+    text-shadow: -1px 2px 1px rgba(108, 83, 144, 0.6);
+    letter-spacing: 1px;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 nav {
     background-color: #975785;
     margin-bottom: 20px;
-
 }
 
 nav ul {
@@ -93,8 +94,9 @@ main h2 {
     /* background-color: orange; */
 }
 
-/* fin de home */
-/* inicio de nosotros */
+/* fin de home---------------------------------------- */
+
+/* inicio de nosotros------------------------------------------ */
 
 .contenedor-imagen {
     position: relative;
@@ -118,9 +120,17 @@ main h2 {
 
 div .imagen {
     border-radius: 143px 0px 129px 130px;
-    ;
     width: 150px;
     height: 150px;
+}
+
+.colaboradores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: rgba(255, 0, 0, 0.274); */
+    margin: 50px;
+
 }
 
 .persona {
@@ -128,22 +138,72 @@ div .imagen {
     border-radius: 4px;
     text-align: center;
     padding: 15px;
-    margin-bottom: 30px;
-    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
-
-
 
 .persona h6 {
     color: rgb(97, 61, 97);
     font-style: italic;
 }
-.colaboradores{
-    display: inline-flex;
-    justify-content: space-between;
-    /* height: 900px; */
+
+/* fin de Nosotros------------------------------------------------------ */
+/* Inicio de Noticias ------------------------------------------------ */
+
+.noticias img {
+    border-radius: 15px;
+    max-width: 400px;
+    display: inline-block;
+
 }
 
+.noticias {
+    border: 1px solid grey;
+    /* align-items: center; */
+    padding: 15px;
+    border-radius: 5px;
+    gap: 10px;
+    display: inline-flex;
+    /* flex-direction: column; */
+    padding-top: 0px;
+    background-color: rgba(255, 255, 0, 0.39);
+    margin-bottom: 5px;
 
 
-/* fin de Nosotros */
+
+}
+
+main h2 {
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.noticias h3 {
+    color: #975785;
+    font-weight: 500;
+    border-bottom: 1px double #975785;
+}
+
+/* Fin de Noticias ------------------------------------------------ */
+/* inicio de contacto--------------------------------------------- */
+.icono {
+    width: 25px;
+    color: #975785;
+}
+
+.enviar {
+    color: white;
+    background-color: #d299c2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(163, 97, 154, 0.75);
+    border: 1px solid #d299c2;
+    cursor: pointer;
+    transition: all 0.6s ease 0.2s;
+
+}
+
+.enviar:hover {
+    background-color: #691050af;
+
+
+}
