@@ -1,0 +1,50 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#logo {
+    width: 170px;
+    /* height: 150px; */
+}
+
+header {
+    padding: 15px 0;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(26, 153, 142);
+    font-size: 60px;
+    font-weight: 500;
+    display: inline-block;
+    /* position: relative; */
+    bottom: 80px;
+    margin-left: 20px;
+    text-shadow: -1px 2px 1px rgba(108, 83, 144, 0.6);
+    letter-spacing: 1px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+nav {
+    background-color: #975785;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: grey;
+    color: black;
+    text-align: center;
+    padding: 25px;
+}
+
+.contenedor {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+
