@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#logo {
+  width: 170px;
+  /* height: 150px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  padding: 15px 0;
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header h1 {
+  color: rgb(26, 153, 142);
+  font-size: 60px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  bottom: 80px;
+  margin-left: 20px;
+  text-shadow: -1px 2px 1px rgba(108, 83, 144, 0.6);
+  letter-spacing: 1px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+nav {
+  background-color: #975785;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  flex-grow: 1;
+}
+
+nav ul a {
   color: white;
+  text-decoration: none;
+  /* margin: 10px; */
+  padding: 10px;
+  display: block;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li a:hover {
+  background-color: #d299c2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer {
+  background-color: grey;
+  color: black;
+  text-align: center;
+  padding: 25px;
+}
+
+.contenedor {
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
+nav ul li a.activo {
+  background-color: #6d4f64;
+}
+
+main img {
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+}
+
+main h2 {
+  font-weight: 500;
+  color: #975785;
+  letter-spacing: 2px;
+}
+
+.somos {
+  box-sizing: border-box;
+  width: 80%;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  /* background-color: orange; */
+}
+
+/* fin de home---------------------------------------- */
+
+/* inicio de nosotros------------------------------------------ */
+
+.contenedor-imagen {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.texto {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 90px;
+  line-height: 100px;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.425);
+  align-items: center;
+}
+
+div .imagen {
+  border-radius: 143px 0px 129px 130px;
+  width: 150px;
+  height: 150px;
+}
+
+.colaboradores {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: rgba(255, 0, 0, 0.274); */
+  margin: 50px;
+
+}
+
+.persona {
+  border: 1px solid grey;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.persona h6 {
+  color: rgb(97, 61, 97);
+  font-style: italic;
+}
+
+/* fin de Nosotros------------------------------------------------------ */
+/* Inicio de Noticias ------------------------------------------------ */
+
+.noticias img {
+  border-radius: 15px;
+  max-width: 400px;
+  display: inline-block;
+
+}
+
+.noticias {
+  border: 1px solid grey;
+  /* align-items: center; */
+  padding: 15px;
+  border-radius: 5px;
+  gap: 10px;
+  display: inline-flex;
+  /* flex-direction: column; */
+  padding-top: 0px;
+  background-color: rgba(255, 255, 0, 0.39);
+  margin-bottom: 5px;
+
+
+
+}
+
+main h2 {
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.noticias h3 {
+  color: #975785;
+  font-weight: 500;
+  border-bottom: 1px double #975785;
+}
+
+/* Fin de Noticias ------------------------------------------------ */
+/* inicio de contacto--------------------------------------------- */
+.icono {
+  width: 25px;
+  color: #975785;
+}
+
+.enviar {
+  color: white;
+  background-color: #d299c2;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px rgba(163, 97, 154, 0.75);
+  border: 1px solid #d299c2;
+  cursor: pointer;
+  transition: all 0.6s ease 0.2s;
+
+}
+
+.enviar:hover {
+  background-color: #691050af;
+
+
 }
