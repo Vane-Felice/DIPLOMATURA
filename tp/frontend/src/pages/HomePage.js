@@ -11,7 +11,7 @@ function HomePage() {
             apasiona seguir y poder compartir la vida de estos pequeños seres que viven en nuestro mundo con
             nosotros.
           </p>
-          <p>Acompañanos a explorar mas! y contanctanos si quieres compartir algo con nuestra comunidad</p>
+          <p>Acompañanos a explorar mas! y contanctanos si quieres compartir algo con nuestra comunidad, todxs son bienvenidxs!</p>
         </div>
     </main>
   );

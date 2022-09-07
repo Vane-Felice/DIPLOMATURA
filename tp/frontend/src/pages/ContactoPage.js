@@ -58,10 +58,10 @@ const ContactoPage = (props) => {
         {sending ? <p>Enviando...</p> : null}
         {msg ? <p>{msg}</p> : null}
 
-        {/* <i className='fa-brands fa-facebook-f icono'></i>
+        <i className='fa-brands fa-facebook-f icono'></i>
             <i className='fa-brands fa-instagram icono'></i>
             <i className='fa-brands fa-twitter icono'></i>
-            <i className='fa-solid fa-envelope icono'></i> */}
+            <i className='fa-solid fa-envelope icono'></i>
       </div>
 
     </main >

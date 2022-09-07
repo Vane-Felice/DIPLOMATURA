@@ -5,7 +5,7 @@ function Header() {
     return (
     <header>
       <div className= 'contenedor'>
-        <img src= 'img/logo.png' alt='logo insecto' />
+        <img id='logo' src= 'img/logo.png' alt='logo insecto' />
         <h1>Insectos del mundo</h1>
       </div>
     </header>

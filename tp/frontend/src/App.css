@@ -12,6 +12,7 @@ body {
 header {
   padding: 15px 0;
   background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  text-align: center;
 }
 
 header h1 {
@@ -57,16 +58,11 @@ nav ul li a:hover {
   background-color: #d299c2;
 }
 
-footer {
-  background-color: grey;
-  color: black;
-  text-align: center;
-  padding: 25px;
-}
 
 .contenedor {
   max-width: 960px;
   margin: 0 auto;
+ 
 
 }
 
@@ -88,10 +84,10 @@ main h2 {
 
 .somos {
   box-sizing: border-box;
-  width: 80%;
+  width: 100%;
   padding-left: 20px;
   letter-spacing: 1px;
-  /* background-color: orange; */
+  
 }
 
 /* fin de home---------------------------------------- */
@@ -128,7 +124,6 @@ div .imagen {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* background-color: rgba(255, 0, 0, 0.274); */
   margin: 50px;
 
 }
@@ -143,8 +138,12 @@ div .imagen {
 }
 
 .persona h6 {
-  color: rgb(97, 61, 97);
+  color: rgb(116, 71, 116);
   font-style: italic;
+}
+
+.persona h5 {
+  color:rgb(77, 53, 77);
 }
 
 /* fin de Nosotros------------------------------------------------------ */
@@ -168,9 +167,6 @@ div .imagen {
   padding-top: 0px;
   background-color: rgba(255, 255, 0, 0.39);
   margin-bottom: 5px;
-
-
-
 }
 
 main h2 {
@@ -206,4 +202,15 @@ main h2 {
   background-color: #691050af;
 
 
+}
+
+
+.cargando{
+  color: #975785;
+  text-align: center;
+}
+
+#novedadTitulo {
+  color: #6d4f64;
+  letter-spacing: 2px;
 }

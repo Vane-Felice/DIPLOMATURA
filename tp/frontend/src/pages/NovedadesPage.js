@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import NovedadItem from '../components/novedades/NovedadItem';
+import './../App.css';
 
 const NovedadesPage = (props) => {
   const [loading, setLoading] = useState(false);
@@ -20,10 +21,10 @@ const NovedadesPage = (props) => {
 
   return (
     <section className="holder">
-      <h2>Novedades</h2>
+      <h2 id="novedadTitulo">Novedades</h2>
       {
         loading ? (
-          <p>Cargando...</p>
+          <p className="cargando">Cargando...</p>
         ) : (
           novedades.map(item => <NovedadItem key={item.id}
             title={item.titulo} subtitle={item.subtitulo}
