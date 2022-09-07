@@ -10,12 +10,12 @@
                 <textarea type="text" class="form-control" placeholder="Subtitulo" name="subtitulo"></textarea>
             </div>
             <div class="mb-3 row">
-                <label>Imagen <input type="file" name="imagen" id="imagen"></label>
+                <label>Imagen <input type="file" class="btn btn-sm" name="imagen" id="imagen"></label>
             </div>
             <div class="mb-3 row">
                 <textarea type="text" class="form-control" placeholder="Cuerpo" name="cuerpo"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Guardar</button>
+            <button type="submit" class="btn btn-success">Guardar</button>
             </form>
             {{#if error}}
             <p>{{message}}</p>
